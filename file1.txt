@@ -1,3 +1,3 @@
-select * from table
+ table
 where 1=1
-and status = 1;
+and  = 1;
