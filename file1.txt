@@ -1,9 +1,1 @@
-select * from table1;
-select * from table2;
-/
-
-create table v_table(
-field1 number(38),
-field2 varchar2(100 char)
-);
-/
+truncate table;
