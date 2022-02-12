@@ -1,1 +1,1 @@
-truncate table v_temp;
+truncate table v_temp2;
