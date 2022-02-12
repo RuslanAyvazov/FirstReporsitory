@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 truncate table v_temp;
 
 
@@ -22,3 +23,6 @@ exception
 
 end;
 /
+=======
+truncate table v_temp2;
+>>>>>>> c3f75f7af149e2cbeaeab8be91eaba9da203b00f
