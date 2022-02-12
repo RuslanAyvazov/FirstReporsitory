@@ -1,1 +1,2 @@
 truncate table v_temp2;
+1
