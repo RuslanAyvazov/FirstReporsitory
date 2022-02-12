@@ -1,2 +1,33 @@
+<<<<<<< HEAD
 truncate table v_temp2;
 1
+=======
+<<<<<<< HEAD
+truncate table v_temp;
+
+
+create or replace function get_stock(wh     number,
+		           	     g_code varchar2,
+		           	     lv     number) return number is
+begin
+
+select 
+  central into v_astock
+from cs.ar_utzrc_astock_by_lv a
+where 1=1
+	and a.g_code = :g_code 
+	and a.lv     = :lv
+	and a.wh     = :wh;
+
+return v_astock;
+
+exception
+	when no_data_found then raise_application_error(-20000, 'Нет данных в таблице!');
+	when others 	   then raise_application_error(-20001, 'Что-то пошло не так!');
+
+end;
+/
+=======
+truncate table v_temp2;
+>>>>>>> c3f75f7af149e2cbeaeab8be91eaba9da203b00f
+>>>>>>> 47671f28f9a0a3321d4efc8e93e02c50e0ba48e4
