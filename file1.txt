@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-truncate table v_temp2;
-1
-=======
-<<<<<<< HEAD
-truncate table v_temp;
-
-
 create or replace function get_stock(wh     number,
 		           	     g_code varchar2,
 		           	     lv     number) return number is
@@ -27,7 +19,3 @@ exception
 
 end;
 /
-=======
-truncate table v_temp2;
->>>>>>> c3f75f7af149e2cbeaeab8be91eaba9da203b00f
->>>>>>> 47671f28f9a0a3321d4efc8e93e02c50e0ba48e4
